@@ -10,4 +10,4 @@ ________________________________________________________________________________
 ```
 ## Challenges:
 [Letter](Letter.md)\
-[OCR is cool!](ocr.md)
+[OCR is cool!](OCR.md)
