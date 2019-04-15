@@ -1,4 +1,4 @@
-#Letter
+# Letter
 The first challenge "LETTER" gives us an archive which contains a pdf with the following content:
 
 -------------------------------------------
