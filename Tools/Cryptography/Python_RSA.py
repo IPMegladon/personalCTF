@@ -1,12 +1,4 @@
-# Hello World program in Python
-# function inverse(x, m)
-#     a, b, u := 0, m, 1
-#     while x > 0
-#         q := b // x # integer division
-#         x, a, b, u := b % x, u, x, a - q * u
-#     if b == 1 return a % m
-#     error "must be coprime"    
-    
+
 def inverse(x, m):
     a, b, u = 0, m, 1
     while x > 0:
@@ -30,8 +22,10 @@ n = p*q
 # phi(n) = (q-1)(p-1)
 nToT = (q-1)*(p-1)
 d = inverse(65537,nToT)
-print str(c)+"\n"
-print str(d)+"\n"
-print str(n)+"\n"
+print(str(c)+"\n")
+print(str(d)+"\n")
+print(str(n)+"\n")
 m = pow( c, d, n )
-print m
+# print (hex(m).decode("hex"))
+print(bytearray.fromhex(hex(m)[2:]).decode())
+
